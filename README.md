@@ -1,2 +1,2 @@
 # GameBoy_img_converter
- A Program to take image files and convert them to look like they were taken from a Gameboy Cammera
+A Program to take image files and convert them to look like they were taken from a Gameboy Camera. This has a GUI. Why? It seemed like a good idea at the time. Here is the current version problem: I am using the incorrect Bayer dither pattern; I am trying to average two by two squares of pixels to a single color. If you test it out, you will see that it is not what is happening. Why? I have no idea how dithering works and am shooting in the dark. I will update with some hopefully substantial knowledge gained soon.
